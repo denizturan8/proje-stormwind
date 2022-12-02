@@ -735,28 +735,118 @@ header ul li a {
 
 }
 
-.pro  .pro-slider {
-width: 100%;
+.pro .pro-slider {
+  width: 100%;
 }
+
 .pro-slider .pro-star {
   background-image: url(../image/slider-bg.png);
   width: 100%;
 }
 
-.refferance-box{
+.refferance-box {
   display: block;
   text-align: center;
   margin-top: 70px;
 }
 
-.refferance-box a{
+.refferance-box a {
   display: inline-block;
   margin: 0 20px;
   margin-bottom: 35px;
 }
-.refferance-box .liner{
+
+.refferance-box .liner {
   display: block;
 }
+
+.solution {
+  display: block;
+  width: 100%;
+  margin-top: 75px;
+}
+
+.solution .title-pro {
+  display: inline-block;
+}
+
+.solution .title-pro span {
+  display: block;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.solution .title-pro span:first-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.solution .title-pro span:first-child img {
+  width: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.solution .title-pro span:last-child img {
+  width: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.title-head img {
+  width: 100%;
+}
+
+.title-head p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: #FFFFFF;
+}
+
+
+.title-head span {
+  display: block;
+  display: block;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+/* swiper slider start*/
+
+
+
+
+
+
+/* swiper slider end*/
+
+.morbi{
+ 
+  margin-top:250px;
+}
+.morbi h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
+}
+.morbi p {
+  font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+margin-top:20px;
+letter-spacing: 0.02em;
+}
+
+.morbi-img{
+  background: url(../image/morbi.png);
+}
+
 
 
 
@@ -769,7 +859,7 @@ width: 100%;
     width: 170px;
   }
 
-  .refferance-box a{
+  .refferance-box a {
     display: inline-block;
     margin: 0 10px;
     text-align: center;
@@ -1051,8 +1141,6 @@ width: 100%;
   }
 
 
-
-
 }
 
 
@@ -1063,34 +1151,39 @@ width: 100%;
 
 @media only screen and (max-width: 768px) {
 
-  header{
+  header {
     padding: 0;
   }
 
   header ul li a {
     font-size: 28px;
-    
+
   }
+
   header .logo {
     width: 140px;
     margin-left: 0;
-}
-header .logo img{
-  width: 100%;
-}
+  }
+
+  header .logo img {
+    width: 100%;
+  }
 
   header ul .drop a {
     font-size: 22px;
     left: 13px;
-    
+
   }
+
   header ul li {
     margin-bottom: 20px;
-    
+
   }
-  header ul li a img{
+
+  header ul li a img {
     width: 25px;
   }
+
   .header-area .list {
     display: none;
   }
@@ -1098,6 +1191,7 @@ header .logo img{
   .slider-section .slider-area .text-area h1 {
     font-size: 34px;
   }
+
   .slider-section-about-us .slider-section-area a {
     padding: 28px 0px;
     border-radius: 10px;
@@ -1107,6 +1201,7 @@ header .logo img{
     display: inline-block;
     text-decoration: none;
   }
+
   .header-area .list .droblet {
     display: block;
   }
@@ -1303,11 +1398,11 @@ header .logo img{
 
   }
 
-  .home-publications1 .text-publ h1{
+  .home-publications1 .text-publ h1 {
     font-weight: 600;
-font-size: 24px;
-line-height: 29px;
-color: #1A1A1A;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1A1A1A;
   }
 
   .footer h3 {
@@ -1316,49 +1411,58 @@ color: #1A1A1A;
     line-height: 44px;
     color: #1A1A1A;
     margin-top: 100px;
-}
-.footer-list{
-  display: block;
-}
-.footerItem{
+  }
+
+  .footer-list {
+    display: block;
+  }
+
+  .footerItem {
     width: 49%;
     display: inline-block;
     margin-bottom: 30px;
     vertical-align: top;
-}
-.line3{
-  margin-top: 0;
-}
-.social-media{
-  display: none;
-}
-.footer-end{
-  display: block;
-}
-.footer-end .left{
-  display: block;
-  padding-bottom: 15px;
-}
-.footer-end .right{
-  display: block;
-  padding-bottom: 30px;
-}
-.footer{
-  height: auto;
-}
-.drop{
-  position: relative;
-  top: -4px;
-}
-.flag{
-  margin-top: 14px;
-}
-.liner{
-  display: none;
-}
+  }
+
+  .line3 {
+    margin-top: 0;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  .footer-end {
+    display: block;
+  }
+
+  .footer-end .left {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .footer-end .right {
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .drop {
+    position: relative;
+    top: -4px;
+  }
+
+  .flag {
+    margin-top: 14px;
+  }
+
+  .liner {
+    display: none;
+  }
 
 }
+
 /*mobile responsive  end*/
-
-
-

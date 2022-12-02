@@ -13,3 +13,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     tabletmenu()
 });
+
