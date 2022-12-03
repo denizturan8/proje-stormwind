@@ -1140,6 +1140,26 @@ letter-spacing: 0.02em;
     margin-bottom: 40px;
   }
 
+  .section-title-pro {
+    width: 100%;
+    border-bottom: 1px solid;
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    display: block;
+}
+
+  
+.section-title-pro p {
+  font-size: 40px;
+    line-height: 47px;
+    background-color: #ffffff;
+    position: relative;
+    top: 5px;
+    padding-right: 10px;
+}
+
 
 }
 
